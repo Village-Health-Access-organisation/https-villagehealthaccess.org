@@ -5,8 +5,8 @@ never as results. <span class="ph">...</span> marks a fact still to be confirmed
 """
 
 LOGO = ('<svg viewBox="0 0 40 40" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">'
-        '<rect width="40" height="40" rx="11" fill="#1660d6"/>'
-        '<path d="M8 19 20 9l12 10" fill="none" stroke="#7fb2ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
+        '<rect width="40" height="40" rx="11" fill="#0b6b45"/>'
+        '<path d="M8 19 20 9l12 10" fill="none" stroke="#f6c324" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
         '<path d="M17 18h6v4h4v6h-4v4h-6v-4h-4v-6h4z" fill="#ffffff"/></svg>')
 
 NAV = [("about.html", "About"), ("programs.html", "Programs"), ("impact.html", "Impact"),
