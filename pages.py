@@ -104,7 +104,7 @@ HOME = f'''
     <div class="prose">
       <p class="eyebrow">Our mission</p>
       <h2>Care that doesn't depend on income, location or language.</h2>
-      <p>We provide free, high-quality telemedicine and essential medicines to the most underserved communities in West Africa. We launched in Togo in 2026 and are building toward rural, refugee and urban-poor communities across the region.</p>
+      <p>We provide free, high-quality telemedicine and essential medicines to the most underserved communities in West Africa. We launch in Togo at the end of 2027 and are building toward rural, refugee and urban-poor communities across the region.</p>
       <p><a href="about.html">Read our story →</a></p>
     </div>
     <div style="display:grid;gap:1rem">
@@ -141,7 +141,7 @@ ABOUT = f'''
     <p>Donald Daglo founded Village Health Access after seeing patients in Togo turned away from clinics because they could not afford care or could not reach it.</p>
     <p>Families were choosing between food and medicine. People walked for hours to reach clinics that were closed or out of stock. Across Togo, Ghana, Benin and beyond, the gap in access to care is wide.</p>
     <p>Village Health Access closes that gap with telemedicine, a network of partner pharmacies and community health workers, reaching people where they already are.</p>
-    <p class="small muted">West Africa, 2026 to present</p>
+    <p class="small muted">West Africa · launching end of 2027</p>
   </div>
   <div style="display:grid;gap:1.25rem;align-content:start">
     <div class="panel"><p class="eyebrow">Mission</p><p style="font-size:1.2rem">To provide free telemedicine and access to essential medicines for the most vulnerable communities in West Africa.</p></div>
@@ -202,7 +202,7 @@ PROGRAMS = f'''
     </div>
     <div class="side">
       <div class="panel"><p class="eyebrow">Languages of care</p><p class="muted small">Our translation network is planned to cover 14 languages, including:</p><ul class="chips">{LANG_CHIPS}</ul></div>
-      <div class="panel"><p class="eyebrow">Where</p><p>Launched in Togo in 2026, expanding to Ghana, Benin and beyond, with a goal of 7 countries by 2030.</p></div>
+      <div class="panel"><p class="eyebrow">Where</p><p>Launching in Togo at the end of 2027, then expanding to Ghana, Benin and beyond, with a goal of 7 countries by 2030.</p></div>
     </div>
   </article>
 
@@ -235,8 +235,8 @@ PROGRAMS = f'''
     <div class="prose">
       {I_DROP}
       <h2>Combating Cholera &amp; Delivering Vaccines</h2>
-      <p>Our cholera response in Togo combines oral rehydration, sanitation education and rapid deployment of community health workers.</p>
-      <p>We deliver vaccines to the last mile, including nomadic groups, refugee camps and villages with no health facility. Outbreak data is logged on our platform for reporting to health authorities.</p>
+      <p>Our cholera response in Togo will combine oral rehydration, sanitation education and rapid deployment of community health workers.</p>
+      <p>We will deliver vaccines to the last mile, including nomadic groups, refugee camps and villages with no health facility. Outbreak data will be logged on our platform for reporting to health authorities.</p>
     </div>
     <div class="side"><div class="panel"><p class="eyebrow">Vaccination programs</p>
       <ul class="list"><li>Cholera</li><li>Meningitis</li><li>Yellow fever</li><li>Routine childhood immunizations</li></ul>
@@ -257,7 +257,7 @@ PROGRAMS = f'''
 
 # ---------------------------------------------------------------- IMPACT
 ROADMAP = [
-    ("live", "Togo", "Active", "Launched 2026. Our first and currently only active country."),
+    ("live", "Togo", "End of 2027", "Our first country, launching at the end of 2027."),
     ("", "Ghana", "Planned", "Next expansion country."),
     ("", "Benin", "Planned", "Next expansion country."),
     ("", "Nigeria", "Planned", "In conversation with health authorities."),
@@ -278,7 +278,7 @@ IMPACT = f'''
 <section class="band page-hero"><div class="wrap">
   <p class="eyebrow">Measuring what matters</p>
   <h1>Our impact, reported honestly.</h1>
-  <p class="lead">We are a young initiative. Here is where we are today, where we're going, and how we'll report progress each month.</p>
+  <p class="lead">We are a young initiative. We launch in Togo at the end of 2027. Here is where we're going, what we'll measure, and how we'll report progress each month.</p>
 </div></section>
 
 <section class="section"><div class="wrap">
@@ -289,7 +289,7 @@ IMPACT = f'''
     <div class="goal"><b>500+</b><span>partner clinics</span></div>
     <div class="goal"><b>14</b><span>languages</span></div>
   </div>
-  <div class="panel" style="margin-top:1.25rem"><p class="eyebrow">Results to date</p><p>Consultations completed: <span class="ph">number and date</span> · Medicine packages delivered: <span class="ph">number and date</span> · Families served: <span class="ph">number and date</span></p></div>
+  <div class="panel" style="margin-top:1.25rem"><p class="eyebrow">Results</p><p>We launch in Togo at the end of 2027. From then on we will publish consultations completed, medicine packages delivered and families served here every month.</p></div>
 </div></section>
 
 <section class="section section-alt"><div class="wrap grid g2" style="gap:3rem">
@@ -298,16 +298,15 @@ IMPACT = f'''
     <ol class="roadmap">{ROADMAP_HTML}</ol>
   </div>
   <div>
-    <div class="section-head"><p class="eyebrow">Consultations</p><h2>What patients come to us for</h2></div>
-    <div class="panel"><div class="bars">{BARS}</div>
-    <p class="small muted">Share of consultations by category. Period covered: <span class="ph">dates and number of consultations</span>.</p></div>
-    <p class="muted" style="margin-top:1rem">Fever and malaria are the most common reasons people reach out, followed by respiratory illness. Maternal health consultations are a growing share.</p>
+    <div class="section-head"><p class="eyebrow">Consultations</p><h2>What we will report</h2></div>
+    <div class="panel"><p>After launch, we will publish the share of consultations by category each month: fever and malaria, respiratory illness, digestive illness, maternal health and other conditions.</p>
+    <p class="small muted">All data will be anonymized before it is published.</p></div>
   </div>
 </div></section>
 
 <section class="section"><div class="wrap grid g2" style="gap:2rem">
   <div class="panel"><p class="eyebrow">Data transparency</p><h3>Updated monthly, always anonymized</h3><p class="muted">Impact data is updated monthly. Patient data is anonymized and never shared publicly. <a href="privacy.html">Read our privacy commitments</a>.</p></div>
-  <div class="panel" id="annual-report"><p class="eyebrow">Annual report</p><h3>2026 Annual Report</h3><p class="muted">Our first annual report will be published here. <span class="ph">publication date or PDF link</span></p></div>
+  <div class="panel" id="annual-report"><p class="eyebrow">Annual report</p><h3>First annual report</h3><p class="muted">Our first annual report will be published here after our first year of operations, which begins with our launch at the end of 2027.</p></div>
 </div></section>
 {CTA}
 '''
@@ -481,7 +480,7 @@ CONTACT = f'''
     <p class="form-status small" aria-live="polite"></p>
   </div>
   <div style="display:grid;gap:1.25rem;align-content:start">
-    <div class="prose"><p class="eyebrow">Where we are</p><h2 style="font-size:1.6rem">Distributed across West Africa</h2><p>We don't have a central office. Our team works where our patients are. We are active in Togo and building toward Ghana, Benin, Nigeria, Burkina Faso, Côte d'Ivoire and Senegal.</p></div>
+    <div class="prose"><p class="eyebrow">Where we are</p><h2 style="font-size:1.6rem">Distributed across West Africa</h2><p>We don't have a central office. Our team works where our patients are. We launch in Togo at the end of 2027 and are building toward Ghana, Benin, Nigeria, Burkina Faso, Côte d'Ivoire and Senegal.</p></div>
     <div class="panel"><p class="eyebrow">Follow our work</p>
       <ul class="list" style="list-style:none;padding:0">
         <li><a href="https://x.com/villagehealthacc">X (Twitter) · @villagehealthacc</a></li>

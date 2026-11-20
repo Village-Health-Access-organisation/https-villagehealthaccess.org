@@ -20,7 +20,7 @@ SELF_FONTS = ('<link rel="preload" href="/fonts/plus-jakarta-sans-latin.woff2" a
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500..800&family=Inter:wght@400..700&display=swap">')
-DESC = "Free telemedicine and essential medicine delivery for underserved communities across West Africa. A humanitarian initiative launched in Togo in 2026."
+DESC = "Free telemedicine and essential medicine delivery for underserved communities across West Africa. A humanitarian initiative launching in Togo at the end of 2027."
 
 
 def header(active):
