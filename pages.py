@@ -5,8 +5,8 @@ never as results. <span class="ph">...</span> marks a fact still to be confirmed
 """
 
 LOGO = ('<svg viewBox="0 0 40 40" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">'
-        '<rect width="40" height="40" rx="11" fill="#006a4e"/>'
-        '<path d="M8 19 20 9l12 10" fill="none" stroke="#f4b400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
+        '<rect width="40" height="40" rx="11" fill="#1660d6"/>'
+        '<path d="M8 19 20 9l12 10" fill="none" stroke="#7fb2ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
         '<path d="M17 18h6v4h4v6h-4v4h-6v-4h-4v-6h4z" fill="#ffffff"/></svg>')
 
 NAV = [("about.html", "About"), ("programs.html", "Programs"), ("impact.html", "Impact"),
@@ -38,10 +38,10 @@ def copy_row(addr):
     return f'<div class="copy-row"><code>{addr}</code><button class="copy-btn" type="button" data-copy="{addr}">Copy</button></div>'
 
 
-CTA = '''<section class="band cta"><div class="wrap cta-inner">
+CTA = '''<section class="band cta"><div class="wrap"><div class="cta-inner">
   <div style="display:grid;gap:.8rem"><p class="eyebrow">Support us</p><h2>Help healthcare reach the villages clinics can't.</h2></div>
   <div class="actions" style="margin:0"><a class="btn btn-gold" href="donate.html">Donate</a><a class="btn btn-ghost" href="donate.html#grants">Grant opportunities</a></div>
-</div></section>'''
+</div></div></section>'''
 
 GOALS = '''<div class="goals">
   <div class="goal"><b>10,000+</b><span>families reached</span></div>
@@ -54,17 +54,29 @@ GOALS = '''<div class="goals">
 HOME = f'''
 <section class="band hero"><div class="wrap hero-grid">
   <div>
-    <p class="eyebrow">A humanitarian initiative in partnership with Verakou</p>
-    <h1>Healthcare for every village.</h1>
+    <p class="pill"><span class="pill-dot"></span>In partnership with Verakou</p>
+    <h1>Healthcare for <span class="hl">every village.</span></h1>
     <p class="lead">Free telemedicine and essential medicines for underserved communities across West Africa, delivered over the phones people already use, in the languages they speak.</p>
     <div class="actions"><a class="btn btn-gold" href="donate.html">Support our mission</a><a class="btn btn-ghost" href="programs.html">See our programs</a></div>
+    <ul class="trust">
+      <li><b>Free</b> for patients</li>
+      <li><b>WhatsApp</b> first</li>
+      <li><b>Licensed</b> clinicians</li>
+    </ul>
   </div>
-  <div class="chat" role="img" aria-label="Illustration of a WhatsApp consultation ">
-    <div class="chat-head"><span class="dot">VHA</span><div><b>Village Health Access</b><span>WhatsApp · online</span></div></div>
-    <div class="msg out">Good morning. My daughter has had a fever since yesterday.<i>Patient · translated from Ewe</i></div>
-    <div class="msg in">Thank you. A few quick questions so we can help. How old is she, and has she been tested for malaria?<i>Community health worker</i></div>
-    <div class="msg in">A licensed clinician will review her case today. Medicine can be collected at your nearest partner pharmacy.<i>Care coordination</i></div>
-    <p class="chat-note">Illustration of how a consultation works</p>
+  <div class="hero-visual">
+    <div class="phone" role="img" aria-label="Illustration of a WhatsApp consultation">
+      <div class="phone-notch"></div>
+      <div class="chat">
+        <div class="chat-head"><span class="dot">VHA</span><div><b>Village Health Access</b><span>online</span></div></div>
+        <div class="msg out">Good morning. My daughter has had a fever since yesterday.<i>Patient · translated from Ewe</i></div>
+        <div class="msg in">Thank you. How old is she, and has she been tested for malaria?<i>Community health worker</i></div>
+        <div class="msg in">A licensed clinician will review her case today.<i>Care coordination</i></div>
+      </div>
+    </div>
+    <div class="float float-a"><span class="float-ic ok">✓</span><div><b>Clinician assigned</b><small>Reviewing case</small></div></div>
+    <div class="float float-b"><span class="float-ic rx">Rx</span><div><b>Medicine ready</b><small>Partner pharmacy</small></div></div>
+    <p class="visual-note">Illustration of how a consultation works</p>
   </div>
 </div></section>
 

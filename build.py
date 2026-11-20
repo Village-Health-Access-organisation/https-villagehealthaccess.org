@@ -15,11 +15,11 @@ ROOT = pathlib.Path(__file__).parent
 CSS = (ROOT / "src" / "styles.css").read_text()
 JS = (ROOT / "src" / "site.js").read_text()
 FONT_CSS = (ROOT / "src" / "fonts.css").read_text()
-SELF_FONTS = ('<link rel="preload" href="/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>'
-              '<link rel="preload" href="/fonts/source-sans-3-latin.woff2" as="font" type="font/woff2" crossorigin>')
+SELF_FONTS = ('<link rel="preload" href="/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin>'
+              '<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>')
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-         '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Source+Sans+3:wght@400;500;600;700&display=swap">')
+         '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500..800&family=Inter:wght@400..700&display=swap">')
 DESC = "Free telemedicine and essential medicine delivery for underserved communities across West Africa. A humanitarian initiative launched in Togo in 2026."
 
 
