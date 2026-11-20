@@ -25,6 +25,8 @@ Search for `class="ph"` to find every fact that still needs a real value.
 
 ## Hosting (Cloudflare Pages)
 
+Cloudflare Pages project: `villagehealthaccess` in the Cloudflare account that holds the domain. Every push to `main` deploys automatically.
+
 - Framework preset: None
 - Build command: (leave empty)
 - Build output directory: `site`
