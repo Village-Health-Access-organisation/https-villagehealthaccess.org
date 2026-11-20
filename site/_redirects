@@ -1,0 +1,6 @@
+# Old site addresses -> new pages
+/donors        /donate        301
+/donors/*      /donate        301
+/blog          /news          301
+/blog/*        /news          301
+/home          /              301
