@@ -176,7 +176,6 @@ ABOUT = f'''
     <p>Village Health Access works in partnership with Verakou. Our telemedicine service is powered by Klinova, built on the Kinara platform.</p>
   </div>
   <div style="display:grid;gap:1rem">
-    <div class="panel"><p class="eyebrow">Partner</p><h2 class="h3">Verakou</h2><p class="muted">Village Health Access works in partnership with Verakou. <span class="ph">one or two sentences on Verakou and its website</span></p></div>
     <div class="panel"><p class="eyebrow">Technology</p><h2 class="h3">Powered by Klinova, built on the Kinara platform</h2><p class="muted">Klinova provides the technology behind our programs: a WhatsApp-based, multilingual triage and care coordination system designed for low-connectivity areas.</p><p><a href="https://klinova.co">Visit klinova.co</a></p></div>
   </div>
 </div></section>
@@ -320,10 +319,7 @@ PARTNERS = f'''
 </div></section>
 
 <section class="section"><div class="wrap">
-  <div class="grid g2" style="margin-bottom:2.5rem">
-    <div class="panel"><p class="eyebrow">Partner</p><h2 class="h3">Verakou</h2><p class="muted">Village Health Access works in partnership with Verakou. <span class="ph">short description of Verakou</span></p></div>
-    <div class="panel"><p class="eyebrow">Technology</p><h2 class="h3">Powered by Klinova, built on the Kinara platform</h2><p class="muted">Klinova provides the WhatsApp-based triage and care coordination technology our programs run on.</p></div>
-  </div>
+  <div class="panel" style="margin-bottom:2.5rem;max-width:44rem"><p class="eyebrow">Partnership &amp; technology</p><h2 class="h3">In partnership with Verakou. Powered by Klinova.</h2><p class="muted">Village Health Access works in partnership with Verakou. Klinova, built on the Kinara platform, provides the WhatsApp-based triage and care coordination technology our programs run on.</p></div>
   <div class="section-head"><p class="eyebrow">Who we work with</p><h2>Partnerships we're building</h2></div>
   <div class="grid g4">
     <div class="card">{I_HEART}<h3>Clinics &amp; health facilities</h3><p>Receive referrals and support follow-up care.</p></div>
