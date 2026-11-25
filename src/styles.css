@@ -324,3 +324,10 @@ section.band.cta { background: var(--bg); border: 0; }
 .band { background: radial-gradient(60% 80% at 85% 10%, var(--tint) 0%, transparent 60%), radial-gradient(50% 70% at 0% 100%, color-mix(in srgb, var(--mint-soft) 90%, transparent) 0%, transparent 55%), var(--soft); }
 section.band.cta { background: var(--bg); }
 .amount-picker .btn.btn-line[aria-pressed="true"] { background: var(--blue-soft); color: var(--blue) !important; border-color: var(--blue); }
+
+/* official logo lockup */
+.brand svg.lockup { width: auto; height: 50px; }
+.foot-brand svg.lockup { height: 60px; }
+@media (max-width: 560px) { .brand svg.lockup { height: 40px; } }
+.chat-head .logo-dot { background: #fff; border: 1px solid var(--line); }
+.chat-head .logo-dot svg { width: 26px; height: 26px; }

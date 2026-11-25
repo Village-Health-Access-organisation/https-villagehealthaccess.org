@@ -9,7 +9,7 @@ Edit page content in pages.py and styles in src/styles.css, then run:  python3 b
 Anything wrapped in <span class="ph">...</span> is a placeholder that still needs a real fact.
 """
 import pathlib, re, shutil
-from pages import PAGES, NAV, LOGO
+from pages import PAGES, NAV, LOGO, LOCKUP
 
 ROOT = pathlib.Path(__file__).parent
 CSS = (ROOT / "src" / "styles.css").read_text()
@@ -29,7 +29,7 @@ def header(active):
         for f, label in NAV)
     return f'''<a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><nav class="wrap nav" aria-label="Main">
-  <a class="brand" href="index.html" aria-label="Village Health Access home">{LOGO}<span>Village Health Access<small>Healthcare for every village</small></span></a>
+  <a class="brand" href="index.html" aria-label="Village Health Access home">{LOCKUP}</a>
   <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
   <ul class="nav-links" id="nav-links">{links}</ul>
   <a class="btn btn-gold" href="donate.html">Donate</a>
@@ -39,7 +39,7 @@ def header(active):
 FOOTER = f'''<footer class="site-footer"><div class="wrap">
   <div class="foot-grid">
     <div>
-      <a class="brand foot-brand" href="index.html">{LOGO}<span>Village Health Access<small>Healthcare for every village</small></span></a>
+      <a class="brand foot-brand" href="index.html" aria-label="Village Health Access home">{LOCKUP}</a>
       <p style="margin-top:1rem">A humanitarian initiative, in partnership with Verakou, providing free telemedicine and essential medicine delivery across West Africa.</p>
     </div>
     <div><h2 class="foot-h">Organization</h2><ul><li><a href="about.html">About</a></li><li><a href="programs.html">Programs</a></li><li><a href="impact.html">Impact</a></li></ul></div>
